@@ -46,9 +46,9 @@ def gcd(a, b):
     else:
         g, y, x = gcd(b % a, a)
         return g, x - (b // a) * y, y
-
-
 ###########################################################
+
+
 print("Enter the discrete log problem you wish to solve of the form: a^x ≡ b mod N.")
 base = int(input("What is your base (a)? "))
 answer = int(input("What is your solution (b)? "))
